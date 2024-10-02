@@ -1,0 +1,8 @@
+---
+name: home
+layout: home
+---
+
+# Sobre esta colección
+
+Esta colección hace parte del trabajo "Suenan memes 2.0", aquí se realiza un trabajo de archivo para poder ver en carne viva el contenido que estos grupos comparten. 

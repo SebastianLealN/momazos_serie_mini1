@@ -1,0 +1,30 @@
+{
+  "id": "https://SebastianLealN.github.io/momazos_serie_mini/iiif/9_EsoBrad/manifest/canvas-0.json",
+  "items": [
+    {
+      "id": "https://SebastianLealN.github.io/momazos_serie_mini/iiif/9_EsoBrad/manifest/page-0.json",
+      "items": [
+        {
+          "id": "https://SebastianLealN.github.io/momazos_serie_mini/iiif/9_EsoBrad/manifest/image-0.json",
+          "items": [],
+          "type": "Annotation",
+          "@context": "http://www.w3.org/ns/anno.jsonld",
+          "motivation": "painting",
+          "target": "https://SebastianLealN.github.io/momazos_serie_mini/iiif/9_EsoBrad/manifest/canvas-0.json",
+          "body": {
+            "id": "https://SebastianLealN.github.io/momazos_serie_mini/iiif/9_EsoBrad/0/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 800,
+            "width": 762
+          }
+        }
+      ],
+      "type": "AnnotationPage"
+    }
+  ],
+  "type": "Canvas",
+  "width": 762,
+  "height": 800,
+  "annotations": []
+}

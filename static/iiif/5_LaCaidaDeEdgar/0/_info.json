@@ -1,0 +1,15 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "http://localhost:5173/momazos_serie_mini/iiif/5_LaCaidaDeEdgar/0",
+  "type": "ImageService3",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [],
+      "width": 512
+    }
+  ],
+  "width": 474,
+  "height": 266
+}
