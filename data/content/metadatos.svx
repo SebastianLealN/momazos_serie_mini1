@@ -15,11 +15,17 @@ En esta sección se encuentran los metadatos de la colección. Pueden descargars
 
 Este es el protocolo que especifica la construcción de los datos de la colección:
 
-| Dato   | Descripción                                                                     |  Tipo      |
-|---     |---                                                                              |---         |
-| pid    | Identificador único                                                             | categórico |
-| label  | Nombre de la obra. Iniciales con mayúsculas                                     | categórico |
-| grupo relacionado  | Autor de la obra. Inciales con mayúsculas, incluir acentos                      | categórico |
-| creador  | Año aproximado de producción de la obra. Escrito en número completo (p.ej 1589) | ordinal    |
-
+| Dato                  | Descripción                                                                                                                  |  Tipo      |
+|---                    | ---                                                                                                                          |---         |
+| pid                   | Identificador único. Estructura y numero para cada item: 1_, 2_, etc. Sin espacios ni tildes.                                | categórico |
+| label                 | Nombre del meme: Asignado por la comunidad o por el creador. Iniciales y nombres con la primera letra en mayúscula.          | categórico |
+| grupo relacionado     | Grupo al que es asociado el meme. Primera letra y anagramas en mayuscula. "/" para indicar más de una relación.              | categórico |
+| creador               | Nombre de usuario, empresa o nombre completo (si no tiene nombre de usaurio), de la persona que publicó el meme original.    | categórico |
+| fecha de publicación  | Fecha aproximada de la publicación del meme original. Estructura: 01/01/2018                                                 | ordinal    |
+| año de popularización | Fecha aproximada en el que el meme empezó a ser usado, solo un año. Estructura: 2024                                         | ordinal    |
+| clase                 | Se prioriza la clase que la comunidad ha designado para el meme. Primera letra mayuscula. "/" para indicar más de una clase. | categórico |
+| localización          | Se utiliza el nombre del país donde originalmente nace el meme. Primera letra en mayuscula.                                  | categórico |
+| información           | Se ingresa el link donde se sacó la mayor información del meme.                                                              | categórico |
+| video                 | Se priorizan los videos más antiguos y que tengan el contenido del meme original. Se utiliza el protocolo de serie Mini.     | categórico |
+| descripción           | Se utiliza toda la información que se tenga del meme, cómo entradas de Wiki, comentarios o analisis al meme.                 | categórico |
 <MetadataTable />

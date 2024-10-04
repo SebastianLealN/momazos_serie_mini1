@@ -13,44 +13,34 @@ layout: page
 
 # Recorrido por la colección
 
-Esta colección de muestra recopila varias imágenes con representaciones alegóricas de América tomadas de [Rijksstudio](https://www.rijksmuseum.nl/en), la colección digital del Rijks Museum de Países Bajos. Todas las imágenes usadas están en el dominio público.
+Esta colección de muestra recopila varias imágenes y interpresentaciones de diferentes memes latinoamericanos. Dada la naturaleza del meme, el uso de este contenido debería de ser visto cómo "Fair use", al usarse cómo una parodia de los contenidos usados.
 
-Usa este archivo para incluir contenido que permita hacer un recorrido por la colección.
+El principal proposito de esta colección, no es solo crear un archivo para este contenido, sino también contrastar los memes con los valores que se considera importante para la comunidad.
 
-Para poner una imagen correspondiente a un ítem de la colección en este recorrido, usa el componente ItemPreview: 
+En esta colección se tendrá en cuenta varios metadatos para ordenar y mapear los valores que la comunidad le ha dado a estos memes cómo: fecha de publicación del contenido original, fecha de popularización del meme, analísis del contenido. Si es posible rastrear: origen, localización y sus implicaciones "físicas" cómo red social de origen (en proceso de investigación).
 
-`<ItemPreview pid="PID" title="TÍTULO" alt="TEXTO ALTERNATIVO" page="PÁGINA DEL ÍTEM (opcional)">`
+Ejemplo:
 
-Así se mostrará una imagen que, si se cliquea, te llevará al elemento de la colección correspondiente.
-
-Así:
-
-<ItemPreview pid="AdriaenCollaert" title="Por Adriaen Collaert" />
-
-También puedes usar urls de imágenes externas con normalidad en el formato Markdown.
+<ItemPreview pid="4_EsoTilin" title="Por TonyZan" />
 
 ## Elementos interactivos
 
-## Gráfico de barras
-
-`<VizBarChart key="columna con valor categórico" top="numero de barras con mayor conteo (opcional, por defecto 10)/>`
+## Gráfico de barras para los medios usados en los memes
 
 <VizBarChart key="medio"/>
 
-## Histograma
+## Gráfico de barras para la clase de meme dado por la comunidad
 
-`<VizBarChart key="columna con valor numérico" />`
+<VizBarChart key="clase"/>
 
-<VizHistogram key="fecha"/>
+## Histograma de los años de popularización
 
-## Árbol jerárquico
+<VizHistogram key="año de popularización"/>
 
-`<VizTree key="Array con columnas con valores categóricos" metadata="metadatos prefiltrados (opcional)"/>`
+## Árbol jerárquico relacionando al usuario y su meme
 
-<VizTree keys={["autor", "label"]}/>
+<VizTree keys={["creador", "label"]}/>
 
 ## Línea de tiempo con el año de popularización de los memes
-
-`<VizTimeline dateKey="columna con fecha" metadata="metadatos prefiltrados (opcional)">`
 
 <VizTimeline dateKey="año de popularización"/>

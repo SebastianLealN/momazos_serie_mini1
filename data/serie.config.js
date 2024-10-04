@@ -3,13 +3,18 @@ const config = {
   "localPort": "5173",
   "base": "https://SebastianLealN.github.io",
   "baseurl": "/momazos_serie_mini",
-  "title": "Colección de Momazos de La Abuela",
-  "subtitle": "Un pequeño espacio para alojar los momos que me gustan",
+  "title": "Momazos mini",
+  "subtitle": "Una pequeña colección de memes latinoamericanos.",
   "credits": "Por Juan Sebastián Leal Ninco",
   "copyright": "Todos los derechos reservados, 2024",
   "pages": {
     "iiifViewer": true,
     "metadataToShow": [
+      {
+        "key": "label",
+        "label": "Label",
+        "type": "text"
+      },
       {
         "key": "grupo relacionado",
         "label": "Grupo relacionado",
@@ -36,13 +41,8 @@ const config = {
         "type": "text"
       },
       {
-        "key": "genero",
-        "label": "Genero",
-        "type": "text"
-      },
-      {
-        "key": "archivo",
-        "label": "Archivo",
+        "key": "clase",
+        "label": "Clase",
         "type": "text"
       },
       {
@@ -53,7 +53,12 @@ const config = {
       {
         "key": "información",
         "label": "Información",
-        "type": "text"
+        "type": "link"
+      },
+      {
+        "key": "video",
+        "label": "Video",
+        "type": "youtube"
       },
       {
         "key": "descripción",
@@ -68,11 +73,8 @@ const config = {
       "medio",
       "fecha de publicación",
       "año de popularización",
-      "genero",
-      "archivo",
-      "localización",
-      "información",
-      "descripción"
+      "clase",
+      "localización"
     ]
   }
 };

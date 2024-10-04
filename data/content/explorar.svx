@@ -10,7 +10,7 @@ layout: page
 
 # Explorar
 
-Usa los componentes interactivos para explorar los ítems de la colección:
+Usa los componentes interactivos para conocer más de los memes de la colección:
 
 <SearchBar />
-<Gallery filters={["grupo relacionado", "medio", "genero"]}/>
+<Gallery filters={["grupo relacionado", "medio", "clase", "año de popularización", "localización"]}/>

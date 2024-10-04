@@ -6,3 +6,15 @@ layout: home
 # Sobre esta colección
 
 Esta colección hace parte del trabajo "Suenan memes 2.0", aquí se realiza un trabajo de archivo para poder ver en carne viva el contenido que estos grupos comparten. 
+
+Esta colección está en proceso de construcción.
+
+El objetivo de esta colección es:
+
+-Almacenar y preservar la información de estos memes latinoamericanos.
+
+-Manifestar la historia y el contexto que los memes requieren para ser analizados.
+
+-Dar un espacio para la comunidad, que manifiesten las necesidades que el meme requiere.
+
+-Encontrar relaciones en los contextos de los memes.
