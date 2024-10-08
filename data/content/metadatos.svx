@@ -17,7 +17,7 @@ Este es el protocolo que especifica la construcción de los datos de la colecci�
 
 | Dato                  | Descripción                                                                                                                  |  Tipo      |
 |---                    | ---                                                                                                                          |---         |
-| pid                   | Identificador único. Estructura y numero para cada item: 1_, 2_, etc. Sin espacios ni tildes.                                | categórico |
+| pid                   | Identificador único. Estructura y numero para cada item. Ejemplo: 1_PanaMiguel Sin espacios ni tildes.                       | categórico |
 | label                 | Nombre del meme: Asignado por la comunidad o por el creador. Iniciales y nombres con la primera letra en mayúscula.          | categórico |
 | grupo relacionado     | Grupo al que es asociado el meme. Primera letra y anagramas en mayuscula. "/" para indicar más de una relación.              | categórico |
 | creador               | Nombre de usuario, empresa o nombre completo (si no tiene nombre de usaurio), de la persona que publicó el meme original.    | categórico |
