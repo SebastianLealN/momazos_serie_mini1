@@ -5,7 +5,7 @@ layout: home
 
 # Sobre esta colección
 
-Esta colección hace parte del trabajo "Suenan memes 2.0", aquí se realiza un trabajo de archivo para poder ver en carne viva el contenido que estos grupos comparten. 
+Esta colección hace parte del trabajo "Suenan memes 2.0", aquí se realiza un trabajo de archivo para poder ver en carne viva el contenido que grupos cómo S.D.L.G, Shitposters, Panafrescos, CuriFeos, etc. comparten. 
 
 Esta colección está en proceso de construcción.
 
@@ -18,3 +18,7 @@ El objetivo de esta colección es:
 -Dar un espacio para la comunidad, que manifiesten las necesidades que el meme requiere.
 
 -Encontrar relaciones en los contextos de los memes.
+
+# Intereses
+
+Esta colección intentará poner en practica la teoría de mi tesis, la cúal busca traer al estudio del meme, aspectos cómo la historia y la materialidad del medio en el que salen los memes, valores "inutiles" del meme, es decir, que son valores que solo le competen a sí mismo, etc.
