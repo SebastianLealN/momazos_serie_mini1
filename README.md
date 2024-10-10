@@ -47,7 +47,7 @@ Abre la carpeta "data" contenida dentro de la **carpeta del proyecto** en el exp
 
 :eyes: ***OJO***: es NECESARIO que el archivo csv contenga al menos dos columnas: una llamada "*pid*" (en minúsculas) con un identificador ÚNICO para cada ítem de la colección, y una llamada "*label*" (en minúsculas) con un título para el ítem. El pid de cada ítem solo puede contener números y letras ascii (es decir, nada de signos de puntuación, espacios, acentos u otros caracteres). Todas las demás columnas son opcionales y pueden tener los datos que consideres relevantes y siguiendo tus propios protocolos (aunque no puedes iniciar el nombre de la columna con un guion bajo '_', está reservado). Revisa el archivo "metadata.csv" que viene por defecto ante las dudas.
 
-:eyes: ***OJO2***: es NECESARIO que las imágenes o la carpeta con múltiples imágenes tengan **EXACTAMENTE** (incluyendo mayúsculas y minúsculas) el mismo nombre que el "pid" del ítem al que corresponden. Revisa las imágenes que vienen por defecto en la carpeta "raw_images" ante las dudas.
+:eyes: ***OJO2***: es NECESARIO que las imágenes o la carpeta con múltiples imágenes tengan **EXACTAMENTE** (incluyendo mayúsculas y minúsculas) el mismo nombre que el "pid" del ítem al que corresponden. Revisa las imágenes que vienSen por defecto en la carpeta "raw_images" ante las dudas.
 
 ### 5. Crear archivo de configuración.
 

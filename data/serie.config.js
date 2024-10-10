@@ -2,9 +2,9 @@ const config = {
   "lang": "es",
   "localPort": "5173",
   "base": "https://SebastianLealN.github.io",
-  "baseurl": "/momazos_serie_mini",
+  "baseurl": "/momazos_serie_mini1",
   "title": "Momazos mini",
-  "subtitle": "Una pequeña colección de memes latinoamericanos.",
+  "subtitle": "Una pequeña colección para guardar memes latinoamericanos.",
   "credits": "Por Juan Sebastián Leal Ninco",
   "copyright": "Todos los derechos reservados, 2024",
   "pages": {
@@ -53,12 +53,12 @@ const config = {
       {
         "key": "información",
         "label": "Información",
-        "type": "link"
+        "type": "text"
       },
       {
         "key": "video",
         "label": "Video",
-        "type": "youtube"
+        "type": "text"
       },
       {
         "key": "descripción",
@@ -67,7 +67,6 @@ const config = {
       }
     ],
     "metadataToIndex": [
-      "label",
       "grupo relacionado",
       "creador",
       "medio",
