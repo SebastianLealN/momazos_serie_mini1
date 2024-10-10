@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "http://localhost:5173/momazos_serie_mini/iiif/1_PanaMiguel/0",
+  "id": "http://localhost:5173/momazos_serie_mini1/iiif/1_PanaMiguel/0",
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",
